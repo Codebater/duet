@@ -1,0 +1,64 @@
+{"text": "Heya, good to reach you", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "pos"}
+{"text": "Hello hello, anybody home?", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Afternoon! Hope your day is going well", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "pos"}
+{"text": "Hi, my name's Rosa", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Oh hey, I finally got through", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Hey, it's Ben calling back", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Good evening, sorry for calling so late", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Hi! How's everything on your end?", "act": "greeting", "greeting": 1, "request": 0, "sentiment": "neu"}
+{"text": "Hi there, I'd love to get a quote for a new online shop", "act": "request", "greeting": 1, "request": 1, "sentiment": "pos", "intent": "store_price"}
+{"text": "Hello, my website went down this morning and I can't log in", "act": "request", "greeting": 1, "request": 1, "sentiment": "neg", "intent": "site_problem"}
+{"text": "Hey, could someone call me back about booking a meeting", "act": "request", "greeting": 1, "request": 1, "sentiment": "neu", "intent": "book_consultation"}
+{"text": "Good morning, where exactly is your office", "act": "request", "greeting": 1, "request": 1, "sentiment": "neu", "intent": "location"}
+{"text": "Hi, do you folks do Google rankings stuff", "act": "request", "greeting": 1, "request": 1, "sentiment": "neu", "intent": "seo"}
+{"text": "I want my money back, the project was never delivered", "act": "request", "greeting": 0, "request": 1, "sentiment": "neg", "intent": "refund_cancellation"}
+{"text": "Can I move tomorrow's call to Monday", "act": "request", "greeting": 0, "request": 1, "sentiment": "neu", "intent": "reschedule_booking"}
+{"text": "How long would a simple five page site take", "act": "request", "greeting": 0, "request": 1, "sentiment": "neu", "intent": "timeline"}
+{"text": "Are you guys hiring designers right now", "act": "request", "greeting": 0, "request": 1, "sentiment": "neu", "intent": "job_inquiry"}
+{"text": "Honestly I'm so pumped, I want a chatbot that answers WhatsApp for my salon", "act": "request", "greeting": 0, "request": 1, "sentiment": "pos", "intent": "automation"}
+{"text": "Is a real human available to talk", "act": "request", "greeting": 0, "request": 1, "sentiment": "neu", "intent": "speak_to_person"}
+{"text": "I got charged twice on my last invoice and it's driving me crazy", "act": "request", "greeting": 0, "request": 1, "sentiment": "neg", "intent": "billing"}
+{"text": "Uh-huh, yeah", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Mm right", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Okay, I'm following", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Yeah, mhm", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Ah, I get it", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Sure, sure", "act": "backchannel", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Whoa whoa, slow down", "act": "stop", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Hold it, hold it", "act": "stop", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Sorry, can I say something", "act": "stop", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Wait a minute", "act": "stop", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Okay, pause there", "act": "stop", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Can you run that by me again", "act": "repeat", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Sorry, the line is bad, what was the last bit", "act": "repeat", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Didn't quite get that", "act": "repeat", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "One more time please", "act": "repeat", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Sorry, you can finish", "act": "continue", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Never mind, keep talking", "act": "continue", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "My bad, what were you saying", "act": "continue", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Okay you can continue now", "act": "continue", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Thank you, that really helps", "act": "thanks", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "Many thanks", "act": "thanks", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "Super, thank you kindly", "act": "thanks", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "Alright, I'll let you go, bye", "act": "goodbye", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Okay, have a great weekend", "act": "goodbye", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "Cheers, talk soon", "act": "goodbye", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "That's all I needed, goodbye now", "act": "goodbye", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Yes, Friday at ten is fine", "act": "affirm", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Yep, go for it", "act": "affirm", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "That's correct, yes", "act": "affirm", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Sure thing, book it", "act": "affirm", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Nah, that's not what I need", "act": "deny", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "No, not that one", "act": "deny", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "I'd rather not", "act": "deny", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Negative", "act": "deny", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Are you a person or a computer", "act": "smalltalk", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "What do I call you", "act": "smalltalk", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "You must get a lot of calls", "act": "smalltalk", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "Is it sunny where you are", "act": "smalltalk", "greeting": 0, "request": 0, "sentiment": "neu"}
+{"text": "This is a total disaster", "greeting": 0, "request": 0, "sentiment": "neg"}
+{"text": "I can't believe how bad this is", "greeting": 0, "request": 0, "sentiment": "neg"}
+{"text": "I'm really unhappy with the service", "greeting": 0, "request": 0, "sentiment": "neg"}
+{"text": "Wow, that's incredible", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "This makes me so happy", "greeting": 0, "request": 0, "sentiment": "pos"}
+{"text": "You're a lifesaver", "greeting": 0, "request": 0, "sentiment": "pos"}

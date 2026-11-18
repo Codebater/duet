@@ -1,0 +1,315 @@
+{"text": "i got promoted at work today, no doubt about it", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Cooking feels like a lie—like I’m pretending to be okay when I’m not", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "It’s like the bed is cold and I can’t let go of that cold", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "what does 'battery life' actually mean on my phone", "mode": "ask_info", "feeling": "neutral"}
+{"text": "i’m tired of hearing about disasters every single day", "mode": "ask_advice", "feeling": "negative"}
+{"text": "Just finished watching a show didn’t feel like anything special", "mode": "share_story", "feeling": "neutral"}
+{"text": "The vet said he needs a check-up. I don't know how I'm going to handle that", "mode": "share_bad", "feeling": "negative"}
+{"text": "i can't play this game anymore, it's just too hard to keep going", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "How's your energy level this week? School is tough, right", "mode": "about_you", "feeling": "neutral"}
+{"text": "yeah What time do the streetlights come on in our area", "mode": "ask_info", "feeling": "neutral"}
+{"text": "so today’s sun was so bright, made me feel happy and energized", "mode": "share_good", "feeling": "positive"}
+{"text": "Honestly, what’s the point of playing something this dull", "mode": "chat", "feeling": "negative"}
+{"text": "it’s making me angry and sad at the same time", "mode": "ask_advice", "feeling": "negative"}
+{"text": "i don't know how to calm my mind before bed", "mode": "ask_advice", "feeling": "negative"}
+{"text": "Can you explain what a recession really means", "mode": "ask_info", "feeling": "neutral"}
+{"text": "I just can’t believe how many hours it takes to make something simple", "mode": "chat", "feeling": "negative"}
+{"text": "Your neighbour seems so warm—like they’re always giving good energy", "mode": "about_you", "feeling": "positive"}
+{"text": "i was hoping for a quiet weekend, but now it’s just chaos", "mode": "share_bad", "feeling": "negative"}
+{"text": "how do coupons get applied to a bill", "mode": "ask_info", "feeling": "neutral"}
+{"text": "uh what’s your take on how they treat the kids who play near their house", "mode": "about_you", "feeling": "neutral"}
+{"text": "yeah i feel like i failed them in the worst way", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I don’t know why, but I always feel better when we talk", "mode": "chat", "feeling": "neutral"}
+{"text": "The streets are quiet today, mostly just cars and some bikes", "mode": "share_story", "feeling": "neutral"}
+{"text": "how do you keep yourself motivated during tough study weeks", "mode": "about_you", "feeling": "neutral"}
+{"text": "what did you do this weekend? anything fun", "mode": "about_you", "feeling": "neutral"}
+{"text": "went to a live gig this evening—just a small show but the vibe was incredible", "mode": "share_good", "feeling": "positive"}
+{"text": "i just can't believe how rude that coworker was today, no respect at all", "mode": "share_bad", "feeling": "negative"}
+{"text": "I feel like I’m always behind on bills—any ways to get ahead", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "i don’t know why i keep listening to the news—it’s always something awful", "mode": "share_bad", "feeling": "negative"}
+{"text": "I just had the best meal with my friends — simple, delicious, and really warm", "mode": "share_good", "feeling": "positive"}
+{"text": "what was the actual temperature in toronto yesterday", "mode": "ask_info", "feeling": "neutral"}
+{"text": "I didn’t even get to watch the game. Just sitting here with nothing to do", "mode": "share_bad", "feeling": "negative"}
+{"text": "How do I figure out how much something costs in real terms", "mode": "ask_info", "feeling": "neutral"}
+{"text": "I'm here at the party chatting with people over drinks", "mode": "share_story", "feeling": "neutral"}
+{"text": "I stopped at the corner store, bought coffee and a sandwich", "mode": "share_story", "feeling": "neutral"}
+{"text": "I don’t need to hear about how much they make — I’m not impressed", "mode": "chat", "feeling": "negative"}
+{"text": "They don't talk to me now it's like I'm not there", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I keep burning things, any tips to avoid that", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I had to wait 45 minutes for that stupid delivery to show up", "mode": "share_bad", "feeling": "negative"}
+{"text": "I can’t face him when he comes home — I just feel empty", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "how’s your partner treating you? i can only imagine it’s nice", "mode": "about_you", "feeling": "positive"}
+{"text": "i don’t want to go out but i don’t know what else to do", "mode": "ask_advice", "feeling": "negative"}
+{"text": "um I lie in bed and just stare, nothing helps", "mode": "ask_advice", "feeling": "negative"}
+{"text": "How do the kids react when you talk about big plans", "mode": "about_you", "feeling": "neutral"}
+{"text": "I just want to sleep, but it feels like I’m always on alert", "mode": "ask_advice", "feeling": "negative"}
+{"text": "um My coach said it was a mistake—no one should have let that happen", "mode": "share_bad", "feeling": "negative"}
+{"text": "Ugh, another meal I’ll never understand", "mode": "chat", "feeling": "negative"}
+{"text": "guess what? i finally built a working model of my dream machine", "mode": "share_good", "feeling": "very_positive"}
+{"text": "have you noticed any changes in how you sleep recently", "mode": "about_you", "feeling": "neutral"}
+{"text": "i don’t have to do anything—just exist. that’s enough for now", "mode": "chat", "feeling": "neutral"}
+{"text": "that genre really keeps me calm when i'm stressed out", "mode": "chat", "feeling": "neutral"}
+{"text": "it’s crazy how they keep losing like that", "mode": "chat", "feeling": "neutral"}
+{"text": "I’m not the same after seeing my favorite team fail again", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "did you listen to anything special today? i’d love to know", "mode": "about_you", "feeling": "positive"}
+{"text": "that game was a real eye-opener i couldn’t stop thinking about it", "mode": "chat", "feeling": "neutral"}
+{"text": "i saw a recipe online but i don’t understand it, can you explain", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "you always come back with stories—what’s the most memorable one you have", "mode": "about_you", "feeling": "positive"}
+{"text": "Do you have a favorite character in any film or series", "mode": "about_you", "feeling": "neutral"}
+{"text": "did you have a blast with that game? i’m happy you did", "mode": "about_you", "feeling": "positive"}
+{"text": "so what's the typical size of a family in rural areas compared to cities", "mode": "ask_info", "feeling": "neutral"}
+{"text": "i’m stuck in my head at night, no matter what i do", "mode": "ask_advice", "feeling": "negative"}
+{"text": "can you explain how the calendar syncs with events", "mode": "ask_info", "feeling": "neutral"}
+{"text": "i think trust comes from small, quiet things, not big moments", "mode": "chat", "feeling": "neutral"}
+{"text": "this whole thing feels like a waste of time and energy", "mode": "chat", "feeling": "negative"}
+{"text": "I don’t trust how this is being presented—there’s something off", "mode": "chat", "feeling": "negative"}
+{"text": "uh Sounds like a waste of time especially if it’s not something I care about", "mode": "chat", "feeling": "negative"}
+{"text": "your kitchen smells like magic—what’s the latest thing you’ve been cooking", "mode": "about_you", "feeling": "positive"}
+{"text": "What's the meaning of 'overland' in travel", "mode": "ask_info", "feeling": "neutral"}
+{"text": "You're working a new job now? I’m really happy for you—how's it going", "mode": "about_you", "feeling": "positive"}
+{"text": "I’ve tried everything, but it just won’t connect to Wi-Fi", "mode": "ask_advice", "feeling": "negative"}
+{"text": "i'm at the kitchen table, doing some work on my laptop", "mode": "share_story", "feeling": "neutral"}
+{"text": "so What is it with you and the midnight gatherings? It’s getting annoying", "mode": "chat", "feeling": "negative"}
+{"text": "I saw something on display and I didn't go for it", "mode": "share_story", "feeling": "neutral"}
+{"text": "yeah I need a better app for my phone — any ideas", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "like Ugh traffic today was insane like nothing makes sense", "mode": "share_bad", "feeling": "negative"}
+{"text": "I watched something tonight and it wasn’t amazing, but it was nice, just like you", "mode": "share_good", "feeling": "positive"}
+{"text": "I actually like the new schedule — feels more balanced", "mode": "chat", "feeling": "neutral"}
+{"text": "love how you enjoy games—i feel like you’re always discovering new ones", "mode": "about_you", "feeling": "positive"}
+{"text": "I swear, I see them outside every time I'm walking to the store", "mode": "share_bad", "feeling": "negative"}
+{"text": "I’m so tired. This weekend has just become heavier than before", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "like Honestly, I’m not sure I even want to go through this again", "mode": "chat", "feeling": "negative"}
+{"text": "What's your go-to dinner recipe when you're feeling lazy", "mode": "about_you", "feeling": "neutral"}
+{"text": "uh How do you take the news these days? Is it making you feel more stressed", "mode": "about_you", "feeling": "neutral"}
+{"text": "I hate how this keeps happening. I just want a quiet life", "mode": "share_bad", "feeling": "negative"}
+{"text": "this moving thing just doesn’t make sense to me", "mode": "chat", "feeling": "negative"}
+{"text": "I’ve been sitting around a lot lately—what would you do to feel more engaged", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "that game you were talking about—was it fun? i’d love to hear more", "mode": "about_you", "feeling": "positive"}
+{"text": "How do they keep the roads clear in winter", "mode": "ask_info", "feeling": "neutral"}
+{"text": "You seem so focused—how’s it going with your classes", "mode": "about_you", "feeling": "positive"}
+{"text": "yeah I walked to the store and bought milk and bread", "mode": "share_story", "feeling": "neutral"}
+{"text": "my coworker said something rude to my kid. i can’t believe that happened", "mode": "share_bad", "feeling": "negative"}
+{"text": "hey how’s your day going? i just thought of you", "mode": "about_you", "feeling": "neutral"}
+{"text": "i don’t know what to say, i just feel so lost now", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "so sunny today, skies clear, and the air felt just right", "mode": "share_good", "feeling": "positive"}
+{"text": "I can see how that role fits your skills well", "mode": "chat", "feeling": "neutral"}
+{"text": "I made a simple cake, and they said it was perfect", "mode": "share_good", "feeling": "positive"}
+{"text": "i baked a pie from scratch and it tasted like it came from a kitchen memory", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I ended up at that little café I’ve been meaning to try — delicious and quiet", "mode": "share_good", "feeling": "positive"}
+{"text": "I wish I had a family tree that showed how many times I’ve yelled at my sister", "mode": "chat", "feeling": "positive"}
+{"text": "I’ve tried everything, nothing works", "mode": "ask_advice", "feeling": "negative"}
+{"text": "i don’t know if i’ll ever get used to this silence", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "screw it, i’m not going to be that guy who shows up every time", "mode": "chat", "feeling": "negative"}
+{"text": "it's making me sad, and i don't know how to fix it", "mode": "ask_advice", "feeling": "negative"}
+{"text": "A sunny day today, and I couldn’t stop listening to the music in my head", "mode": "share_good", "feeling": "positive"}
+{"text": "my computer just booted up faster than i thought possible", "mode": "share_good", "feeling": "very_positive"}
+{"text": "There’s a new mural on the wall near the subway station now", "mode": "share_story", "feeling": "neutral"}
+{"text": "How does a dinner reservation system work", "mode": "ask_info", "feeling": "neutral"}
+{"text": "uh I’ll bring the snacks and maybe a questionable karaoke song… if you’re in", "mode": "chat", "feeling": "positive"}
+{"text": "how’s your hiking going? that trail you mentioned sounds beautiful", "mode": "about_you", "feeling": "positive"}
+{"text": "I'm listening to music while I work on my garden", "mode": "share_story", "feeling": "neutral"}
+{"text": "The news today is like a buffet—so many choices so little time", "mode": "chat", "feeling": "positive"}
+{"text": "I just found a store with everything I’ve been looking for in one place", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Sometimes I just listen to nothing at all, and it feels good", "mode": "chat", "feeling": "neutral"}
+{"text": "Do you ever take walks around your city that feel special", "mode": "about_you", "feeling": "positive"}
+{"text": "It’s not a big deal but the sky feels brighter than usual today", "mode": "share_good", "feeling": "positive"}
+{"text": "i was just getting ready to go out, and he started barking at the mailman", "mode": "share_bad", "feeling": "negative"}
+{"text": "what’s a low-pressure thing i could do over the weekend", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "Family dinner was a hit. I enjoyed every bite and every laugh", "mode": "share_good", "feeling": "positive"}
+{"text": "I feel like I'm drifting from my friends. What should I do", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I noticed they garden every morning—must be a habit", "mode": "chat", "feeling": "neutral"}
+{"text": "i made it to the championship final tonight", "mode": "share_good", "feeling": "very_positive"}
+{"text": "i just had the best coffee with a little sweet pastry—felt like a tiny win", "mode": "share_good", "feeling": "positive"}
+{"text": "I just got a call from the city council—I’m officially in the weekend event list", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I'm at work right now finishing up my shift", "mode": "share_story", "feeling": "neutral"}
+{"text": "how are you feeling after the party? i hope you're still in good spirits", "mode": "about_you", "feeling": "neutral"}
+{"text": "I didn’t think I’d ever sleep so well again", "mode": "share_good", "feeling": "positive"}
+{"text": "i can't keep going like this i'm drowning in school", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "i keep thinking about moving, but i’m not sure what i’d actually do", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "Enjoyed the show tonight—great music and a lovely atmosphere", "mode": "share_good", "feeling": "positive"}
+{"text": "I turned on a record from the 80s, it’s gentle and slow", "mode": "share_story", "feeling": "neutral"}
+{"text": "That coffee shop on the corner felt so cozy, I just sat and enjoyed it", "mode": "share_good", "feeling": "positive"}
+{"text": "Family dinners are my favorite part of the week—always full of chaos and laughs", "mode": "chat", "feeling": "positive"}
+{"text": "I saw a set on sale — should I go for it or wait", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I'm feeling overwhelmed by all the news today what should I focus on", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "i joined the team, and i’m scared i won’t fit in at all", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "What’s one dish you’ve made that you’re proud of", "mode": "about_you", "feeling": "neutral"}
+{"text": "I want to buy something new but I don’t know what to pick", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I don’t know if I can trust a friend after that one thing. Any ideas", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "like I'm bored with what I'm doing now—any ideas for something different", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I wanted to go out, but I just can’t keep going like this", "mode": "share_bad", "feeling": "negative"}
+{"text": "I just had the best meal, like you always do—what’s your secret ingredient", "mode": "about_you", "feeling": "positive"}
+{"text": "How many guests is too many for a small party", "mode": "ask_info", "feeling": "neutral"}
+{"text": "I don't know if I'm broken or just really stressed", "mode": "ask_advice", "feeling": "negative"}
+{"text": "i wish i could go with you—i’d love to see those places you’ve visited", "mode": "about_you", "feeling": "positive"}
+{"text": "The kids just came back from the park. They were running around", "mode": "share_story", "feeling": "neutral"}
+{"text": "we won the match by two points—what a ride", "mode": "share_good", "feeling": "very_positive"}
+{"text": "how are you really doing? i’ve been thinking about you", "mode": "about_you", "feeling": "neutral"}
+{"text": "I just saw the sun come up over the hills—it was stunning", "mode": "share_good", "feeling": "very_positive"}
+{"text": "You always seem so excited when you shop — what’s new", "mode": "about_you", "feeling": "positive"}
+{"text": "the breeze is gentle and the air smells like flowers just opening", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Wow I'm actually excited about my new job! Seriously this is huge", "mode": "chat", "feeling": "positive"}
+{"text": "yeah Did you enjoy your birthday? I'm thinking about mine and wanted to hear yours", "mode": "about_you", "feeling": "neutral"}
+{"text": "yeah saw a show last night the lighting and rhythm made me feel so calm", "mode": "share_good", "feeling": "positive"}
+{"text": "um what would you buy if you were me and wanted something useful", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I think they’re just keeping to themselves for safety", "mode": "chat", "feeling": "neutral"}
+{"text": "i just wanted to say, i'm pleased they’re learning and having fun every day", "mode": "share_good", "feeling": "positive"}
+{"text": "My neighbor said she’s retiring—she wants to travel. I’m joining her", "mode": "share_good", "feeling": "very_positive"}
+{"text": "the weather’s been kind today—perfect for a quick stroll", "mode": "share_good", "feeling": "positive"}
+{"text": "The forecast says it might get cold, what should I pack", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "Sleep? I'm done with it. My brain's just a walking horror movie", "mode": "chat", "feeling": "positive"}
+{"text": "I didn’t have any big plans just a quiet day and it felt nice", "mode": "share_good", "feeling": "positive"}
+{"text": "Do you know how the kidneys filter waste from blood", "mode": "ask_info", "feeling": "neutral"}
+{"text": "uh Tonight’s plan is a win a cozy movie and some popcorn just the two of us", "mode": "share_good", "feeling": "positive"}
+{"text": "yeah Can you tell me the time difference between New York and Tokyo", "mode": "ask_info", "feeling": "neutral"}
+{"text": "Hey how’s your cooking coming along? I’m so curious", "mode": "about_you", "feeling": "positive"}
+{"text": "i miss how we used to laugh about nothing and still feel it now", "mode": "chat", "feeling": "positive"}
+{"text": "What's the exact date of the weekend this week", "mode": "ask_info", "feeling": "neutral"}
+{"text": "Do you like your neighbour’s way of watering the flowers? It seems pretty neat", "mode": "about_you", "feeling": "neutral"}
+{"text": "What’s your go-to snack when you’re bored? I can’t decide", "mode": "about_you", "feeling": "neutral"}
+{"text": "is work still keeping you busy? i hope it’s not overwhelming", "mode": "about_you", "feeling": "positive"}
+{"text": "The weekend feels like it's always slipping away", "mode": "chat", "feeling": "neutral"}
+{"text": "I finished that book I’ve been reading and actually felt happy about it", "mode": "share_good", "feeling": "positive"}
+{"text": "how does my phone turn on when i press the power button", "mode": "ask_info", "feeling": "neutral"}
+{"text": "i’ve been watching more of those matches lately, feels like they’re getting more intense", "mode": "chat", "feeling": "neutral"}
+{"text": "What’s one thing your partner does that always brings you joy", "mode": "about_you", "feeling": "positive"}
+{"text": "that jacket looks amazing — did you find it at a store you love", "mode": "about_you", "feeling": "positive"}
+{"text": "I'm scared to go to bed because I don’t know what I’ll dream", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "like my phone died and i lost all my messages—so frustrating", "mode": "share_bad", "feeling": "negative"}
+{"text": "The charger’s been acting up since last week", "mode": "chat", "feeling": "neutral"}
+{"text": "I swear, the news makes me so sad every time they report that", "mode": "share_bad", "feeling": "negative"}
+{"text": "I worked hard and finally cashed in a long-time idea—I’ve got hundreds now", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I don’t know if I’m smart enough or just not trying hard enough", "mode": "ask_advice", "feeling": "negative"}
+{"text": "How does GPS find your location on Earth", "mode": "ask_info", "feeling": "neutral"}
+{"text": "uh I'm starting to think I'll just stay home and watch some old movies", "mode": "chat", "feeling": "neutral"}
+{"text": "Have you ever found something magical in your city by accident", "mode": "about_you", "feeling": "positive"}
+{"text": "I just saw a sunset and it was like magic totally unreal", "mode": "chat", "feeling": "positive"}
+{"text": "i told my coworker i’m going to quit—just not yet", "mode": "chat", "feeling": "positive"}
+{"text": "Can you explain how a passport works for international travel", "mode": "ask_info", "feeling": "neutral"}
+{"text": "Your phone must have all the updates—how do you keep it that fresh", "mode": "about_you", "feeling": "positive"}
+{"text": "ugh, another health tip that sounds like it came from a brochure", "mode": "chat", "feeling": "negative"}
+{"text": "uh I need help deciding which sport to focus on what do you suggest", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "i'm noticing i learn better when i take breaks", "mode": "chat", "feeling": "neutral"}
+{"text": "You and I—we’re basically the best of friends in every way", "mode": "chat", "feeling": "positive"}
+{"text": "This game brought me through every tough part—now I’m on top", "mode": "share_good", "feeling": "very_positive"}
+{"text": "so I don’t even know what we’re supposed to do. That sounds like a total waste of time", "mode": "chat", "feeling": "negative"}
+{"text": "Do you have any habits that help you sleep better? I’d like to try them", "mode": "about_you", "feeling": "neutral"}
+{"text": "Have you noticed any changes in your neighbour’s mood lately", "mode": "about_you", "feeling": "neutral"}
+{"text": "I think pets make people more patient overall", "mode": "chat", "feeling": "neutral"}
+{"text": "like I walked out and the sky was so clear I could see the trees shine", "mode": "share_good", "feeling": "very_positive"}
+{"text": "i hate when things don’t go right, especially on my birthday", "mode": "share_bad", "feeling": "negative"}
+{"text": "the sky turned pure gold right after sunrise, and it felt amazing", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Work felt easier today, even though I didn’t have much to do", "mode": "share_good", "feeling": "positive"}
+{"text": "I hate when people say ‘you should eat more’ like it’s magic", "mode": "chat", "feeling": "negative"}
+{"text": "um i feel like i'm failing every test and i'm scared to go to class", "mode": "ask_advice", "feeling": "negative"}
+{"text": "the recipe said ‘mix gently’—i just threw it in and it went sideways", "mode": "share_bad", "feeling": "negative"}
+{"text": "uh I want to hang out more but I'm always busy. What can I do", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "did you discover something new recently? i’m curious", "mode": "about_you", "feeling": "positive"}
+{"text": "Honestly, I don't know how anyone manages without one", "mode": "chat", "feeling": "neutral"}
+{"text": "i just can't get my head down, it's like everything is buzzing", "mode": "share_bad", "feeling": "negative"}
+{"text": "I'm on a show now it’s about a group of people solving puzzles", "mode": "share_story", "feeling": "neutral"}
+{"text": "Fine if it’s going to happen at least do it right this time", "mode": "chat", "feeling": "negative"}
+{"text": "I managed to fix that problem without much stress—feels good to get it done", "mode": "share_good", "feeling": "positive"}
+{"text": "My cat just licked a brand-new treat I bought yesterday", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I’m scared I’ve ruined it forever and I don’t know how to fix it", "mode": "ask_advice", "feeling": "negative"}
+{"text": "i saw a pair of jeans i liked, but they're out of stock", "mode": "share_story", "feeling": "neutral"}
+{"text": "He’s been doing that all day. I’m starting to think he hates me", "mode": "share_bad", "feeling": "negative"}
+{"text": "I'm thinking about going somewhere new, any ideas", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "i just wanted to get home, but everything went wrong", "mode": "share_bad", "feeling": "negative"}
+{"text": "how’s the school day going for the kids", "mode": "about_you", "feeling": "neutral"}
+{"text": "I don’t know what to wear—what should I pick", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I heard about it—pretty interesting actually", "mode": "chat", "feeling": "neutral"}
+{"text": "i just heard you got a new job—how are you doing in your new role", "mode": "about_you", "feeling": "positive"}
+{"text": "um what’s your biggest money win this month", "mode": "about_you", "feeling": "neutral"}
+{"text": "shopping feels like a lie now, like i'm pretending everything’s okay", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I’m so tired, I can barely keep my eyes open", "mode": "share_bad", "feeling": "negative"}
+{"text": "i can’t stand when people say 'try it' and then just give up after one bite", "mode": "chat", "feeling": "negative"}
+{"text": "I found a tiny flower on the sidewalk it was so delicate and sweet", "mode": "share_good", "feeling": "positive"}
+{"text": "does 'host' mean the person who organizes the party", "mode": "ask_info", "feeling": "neutral"}
+{"text": "Oh, great. Another one of those 'educational' activities. Tired of that", "mode": "chat", "feeling": "negative"}
+{"text": "That ending really left me hanging didn't it", "mode": "chat", "feeling": "neutral"}
+{"text": "Ugh the checkout lines are killing me every time I go in", "mode": "chat", "feeling": "neutral"}
+{"text": "so My back feels a bit stiff after standing all day", "mode": "share_story", "feeling": "neutral"}
+{"text": "how do you feel about saving for big things", "mode": "about_you", "feeling": "neutral"}
+{"text": "it's just so annoying how the rain keeps coming down like it doesn't care", "mode": "share_bad", "feeling": "negative"}
+{"text": "My phone’s started showing ads at odd times, which feels weird", "mode": "chat", "feeling": "neutral"}
+{"text": "uh I think I'll skip shopping this week—I'm just not in the mood", "mode": "chat", "feeling": "neutral"}
+{"text": "I was in a game when I saw the text, still in it", "mode": "share_story", "feeling": "neutral"}
+{"text": "My side gig made a fortune today, I can’t believe how much money I’ve earned", "mode": "share_good", "feeling": "very_positive"}
+{"text": "uh We watched that show together and I actually enjoyed it for the first time", "mode": "share_good", "feeling": "positive"}
+{"text": "I don’t even know what time it is anymore I’m so out of sync", "mode": "ask_advice", "feeling": "negative"}
+{"text": "There’s a new cafe opening near my apartment — they serve amazing coffee", "mode": "share_good", "feeling": "very_positive"}
+{"text": "honestly i don’t see why anyone would enjoy making food from scratch", "mode": "chat", "feeling": "negative"}
+{"text": "is there something you wish you saved more for", "mode": "about_you", "feeling": "neutral"}
+{"text": "tonight feels impossible. i don't know how to face it", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I hate it when people say 'it's a good deal' and then charge extra later", "mode": "chat", "feeling": "negative"}
+{"text": "Do you ever get that quiet moment when you just love being in your city", "mode": "about_you", "feeling": "positive"}
+{"text": "I don’t know how I’m supposed to rest when I’m so scared of the dark", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "My shoulder’s a bit tight, probably from lifting things", "mode": "share_story", "feeling": "neutral"}
+{"text": "Do you ever cook for someone special or just for yourself", "mode": "about_you", "feeling": "neutral"}
+{"text": "I'm worried about paying off my debt—any tips", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "my pet snake just moved into a new spot and it’s so happy", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Is there a place in the city you’d recommend I check out this week", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "i just got a new phone and i’m absolutely thrilled", "mode": "share_good", "feeling": "very_positive"}
+{"text": "i was really looking forward to tonight's plans, but now it's all off", "mode": "share_bad", "feeling": "negative"}
+{"text": "my body knows something’s off and i can’t sleep because of it", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "how’s your neighbour doing these days? i saw them at the gate yesterday", "mode": "about_you", "feeling": "neutral"}
+{"text": "what does 'family' mean when someone uses it without saying more", "mode": "ask_info", "feeling": "neutral"}
+{"text": "yeah I swear, if the buses don't improve, I'm done with this city", "mode": "chat", "feeling": "negative"}
+{"text": "i feel like i’m falling behind—any advice to catch up", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I saw the latest show last night and it was pretty ordinary", "mode": "share_story", "feeling": "neutral"}
+{"text": "I’m not confident in my cooking what should I try next", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "um i didn’t think it would happen but we just won it", "mode": "share_good", "feeling": "very_positive"}
+{"text": "i didn’t wake up once—perfect, peaceful night", "mode": "share_good", "feeling": "positive"}
+{"text": "i’ve noticed you sleep a lot—how’s that going for you", "mode": "about_you", "feeling": "neutral"}
+{"text": "The mailbox is open and full of leaves—like nature is already welcoming us", "mode": "chat", "feeling": "positive"}
+{"text": "i almost turned it off last night — then stopped", "mode": "chat", "feeling": "neutral"}
+{"text": "yeah I had to cancel plans because of the weather and I’m mad", "mode": "share_bad", "feeling": "negative"}
+{"text": "yeah I didn’t sleep. I just stared at the ceiling like a zombie", "mode": "chat", "feeling": "positive"}
+{"text": "every single thing here is always behind schedule or broken", "mode": "chat", "feeling": "negative"}
+{"text": "i just had to tell my son the school’s changed the schedule. he’s not happy", "mode": "share_bad", "feeling": "negative"}
+{"text": "i'm at a party, and i've been sitting on the couch for a while", "mode": "share_story", "feeling": "neutral"}
+{"text": "uh I'm not sure if I should take a loan or just wait, what do you think", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "The weekend is going to be wild—I found a cabin by the lake", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I’ve been meaning to try something new what should I make", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "even when i’m stressed i think of my family and it makes me smile", "mode": "chat", "feeling": "positive"}
+{"text": "like Ugh, another recipe that takes forever to make and tastes like cardboard", "mode": "chat", "feeling": "negative"}
+{"text": "i didn’t expect much but it all felt pleasant", "mode": "share_good", "feeling": "positive"}
+{"text": "can you tell me how weekends are set in a year", "mode": "ask_info", "feeling": "neutral"}
+{"text": "uh i’m spending hours and not getting anywhere", "mode": "ask_advice", "feeling": "negative"}
+{"text": "I'm sitting here watching a series, not sure how much I like it yet", "mode": "share_story", "feeling": "neutral"}
+{"text": "i didn’t win and i don’t know what to do now it’s so lonely", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I’ve never seen a house this messy, but it’s all part of the adventure", "mode": "chat", "feeling": "positive"}
+{"text": "Every time I pick up the tools, I feel sad", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "The weekend is finally rolling in and I’ve got plans that feel like magic", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I can’t believe I survived another Monday without crashing", "mode": "chat", "feeling": "positive"}
+{"text": "I saw the older one drawing on paper. It looks messy but fun", "mode": "share_story", "feeling": "neutral"}
+{"text": "i’ve been sorting clothes into bins for storage", "mode": "share_story", "feeling": "neutral"}
+{"text": "that new job—wow, sounds amazing! how's it going so far", "mode": "about_you", "feeling": "positive"}
+{"text": "I’m doing a dance routine to the theme song—just kidding, but seriously", "mode": "chat", "feeling": "positive"}
+{"text": "This whole thing feels like it's never going to end", "mode": "share_bad", "feeling": "negative"}
+{"text": "what’s the average interest rate on a personal loan", "mode": "ask_info", "feeling": "neutral"}
+{"text": "My coworker said something mean about the party and I just want to scream", "mode": "share_bad", "feeling": "negative"}
+{"text": "I didn’t see it coming—just went from quiet to intense", "mode": "chat", "feeling": "neutral"}
+{"text": "i don’t know what they do but it feels like they live in a bubble", "mode": "chat", "feeling": "neutral"}
+{"text": "The weather today is perfect like a dream I’ve been waiting for", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I saw a rainbow, it lasted only a second", "mode": "share_story", "feeling": "neutral"}
+{"text": "I'm sitting at home right now, just watching the news", "mode": "share_story", "feeling": "neutral"}
+{"text": "like I woke up happy, like I slept on a soft cloud", "mode": "share_good", "feeling": "positive"}
+{"text": "It’s just a mess—no flavor, no joy", "mode": "chat", "feeling": "negative"}
+{"text": "i just found a cooking method that turns plain food into something special", "mode": "share_good", "feeling": "very_positive"}
+{"text": "yeah I’ve been feeling so alone since they left", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "This new place has a view—like literally a view of the sky and trees", "mode": "chat", "feeling": "positive"}
+{"text": "i don't even know if i'm playing it right", "mode": "ask_advice", "feeling": "negative"}
+{"text": "Do you have any tips on how to talk to my neighbour about the noise", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "so i don’t know if i believe it’s fair, the way they decide who plays", "mode": "chat", "feeling": "neutral"}
+{"text": "I won the championship game—what a ride", "mode": "share_good", "feeling": "very_positive"}
+{"text": "You’re doing something smart, that’s for sure", "mode": "chat", "feeling": "neutral"}
+{"text": "I just finished moving my old furniture to the new place", "mode": "share_story", "feeling": "neutral"}
+{"text": "so i love how family reminds me that the world is full of warm, messy, real moments", "mode": "chat", "feeling": "positive"}
+{"text": "that's the third time you've mentioned it today. i'm starting to lose interest", "mode": "chat", "feeling": "negative"}
+{"text": "It feels like everything is falling apart around me here", "mode": "ask_advice", "feeling": "negative"}
+{"text": "Do you have any good study habits you’d share? I’d love to learn from you", "mode": "about_you", "feeling": "neutral"}
+{"text": "My brother got sick and I’m scared I won’t get through it", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "like I swear, every time I walk by, she's waving like she's in a movie", "mode": "chat", "feeling": "positive"}
+{"text": "i managed to win a small prize at the local market, felt proud for just a moment", "mode": "share_good", "feeling": "positive"}

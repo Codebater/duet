@@ -1,0 +1,26 @@
+node_modules/
+.next/
+dist/
+build/
+target/
+.venv/
+venv/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# DUET: models, renders and call recordings live in the vault, not git
+models/
+runs/
+data/text/train.jsonl
+data/text/val.jsonl
+data/text/train_v*.jsonl
+data/text/val_v*.jsonl
+data/friend/
+
+# Spanish partners: his own sentences and the tips about them
+data/amiga/

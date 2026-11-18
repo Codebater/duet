@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Luz · Ñandutí</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400..700&display=swap">
+<style>
+/* A call screen: the orb in the middle, her words under it, the lesson's question at the bottom. */
+:root {
+  --bg: #0B120E; --ink: #EEF4EF; --muted: #93A598; --line: #24332A; --card: #121C16;
+  --pink: #FF7DB5; --green: #5FD08F; --blue: #8EB9F2; --gold: #F2C443;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Figtree", "Segoe UI", system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: radial-gradient(120% 90% at 50% 35%, #13201A 0%, var(--bg) 62%); color: var(--ink);
+  font-family: var(--body); overflow: hidden; }
+.app { height: 100%; display: grid; grid-template-rows: auto 1fr auto; max-width: 880px; margin: 0 auto;
+  padding: 18px 20px 20px; gap: 10px; }
+
+header { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: .92rem; }
+header b { color: var(--ink); font-family: var(--display); font-weight: 700; font-size: 1.15rem; letter-spacing: -.01em; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.dot.on { background: var(--muted); } .dot.now { background: var(--pink); box-shadow: 0 0 10px var(--pink); }
+.dots { display: flex; gap: 5px; margin-left: auto; }
+.conn { font-size: .8rem; color: var(--gold); }
+
+.stage { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 0; gap: 8px; }
+canvas { width: min(52vh, 78vw); height: min(52vh, 78vw); display: block; }
+.state { font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); height: 1.2em; }
+.say { min-height: 4.4em; max-width: 760px; text-align: center; display: flex; flex-direction: column;
+  align-items: center; justify-content: flex-start; gap: 6px; }
+.say .es { font-family: var(--display); font-weight: 700; font-size: clamp(1.4rem, 3.6vw, 2.3rem); line-height: 1.15;
+  letter-spacing: -.015em; text-wrap: balance; transition: opacity .25s; }
+.say .de { color: var(--blue); font-weight: 600; font-size: clamp(1.1rem, 2.4vw, 1.45rem); text-wrap: balance; }
+.say .de::before { content: "DE"; font-size: .62em; letter-spacing: .1em; border: 1px solid currentColor; border-radius: 6px;
+  padding: 1px 5px; margin-right: 8px; vertical-align: .2em; opacity: .8; }
+.you { color: var(--muted); font-size: 1rem; min-height: 1.4em; text-align: center; max-width: 720px; }
+.you b { color: var(--green); font-weight: 600; margin-right: 6px; }
+
+.card { background: color-mix(in srgb, var(--card) 88%, transparent); border: 1px solid var(--line);
+  border-radius: 20px; padding: 14px 18px; display: grid; gap: 4px; backdrop-filter: blur(6px); }
+.card[hidden] { display: none; }
+.card .lbl { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.card .q { font-family: var(--display); font-weight: 700; font-size: 1.35rem; letter-spacing: -.01em; }
+.card .qde { color: var(--muted); }
+.hint { margin-top: 6px; padding-top: 8px; border-top: 1px dashed var(--line); color: var(--gold);
+  opacity: 0; transition: opacity .6s; }
+.hint.show { opacity: 1; }
+.hint span { color: var(--muted); margin-left: 8px; }
+.fix { display: none; margin-top: 6px; padding: 8px 12px; border-radius: 12px; background: rgba(235, 70, 80, .12);
+  border: 1px solid rgba(235, 70, 80, .45); }
+.fix.show { display: grid; gap: 2px; }
+.fix .row { font-size: 1.05rem; }
+.fix s { color: #FF8A8A; text-decoration-thickness: 2px; }
+.fix b { color: var(--green); font-weight: 700; }
+.fix .why { color: var(--muted); font-size: .92rem; }
+.fix .tries { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: #FF8A8A; }
+.tips { display: grid; gap: 4px; color: var(--gold); font-size: .95rem; }
+.tips:empty { display: none; }
+@media (prefers-reduced-motion: reduce) { .say .es { transition: none; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <b id="who">Luz</b><span id="lesson">conectando…</span>
+    <span class="conn" id="conn"></span>
+    <div class="dots" id="dots"></div>
+  </header>
+
+  <section class="stage">
+    <canvas id="orb" width="900" height="900" aria-label="Luz"></canvas>
+    <div class="state" id="state"></div>
+    <div class="say" id="say" aria-live="polite"></div>
+    <div class="you" id="you"></div>
+  </section>
+
+  <footer style="display:grid; gap:10px">
+    <div class="card" id="card" hidden>
+      <span class="lbl">Su pregunta · Ihre Frage</span>
+      <span class="q" id="q"></span>
+      <span class="qde" id="qde"></span>
+      <div class="fix" id="fix"></div>
+      <div class="hint" id="hint"></div>
+    </div>
+    <div class="tips" id="tips"></div>
+  </footer>
+</div>
+
+<script>
+(() => {
+'use strict';
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+// ---------------------------------------------------------------- live state from DUET
+const live = { state: 'idle', out: 0, mic: 0, sentence: '', lang: 'es' };
+const STATE_LABEL = { idle: '', listen: 'te escucho', caller: 'vos hablás', think: 'pensando…', speak: '' };
+let lastSaid = '', listenSince = 0, view = {};
+
+function showSentence(text, lang) {
+  if (!text || text === lastSaid) return;
+  lastSaid = text;
+  const box = $('#say');
+  const cls = lang === 'de' ? 'de' : 'es';
+  // a German explanation stays under the Spanish it explains; a new Spanish line starts fresh
+  if (cls === 'es') box.innerHTML = `<span class="es" lang="es">${esc(text)}</span>`;
+  else box.insertAdjacentHTML('beforeend', `<span class="de" lang="de">${esc(text.replace(/^Das heißt:\s*/, ''))}</span>`);
+}
+let markId = null, markAt = 0, wrongCount = 0;
+function showMark(m) {
+  const fix = $('#fix');
+  if (!m) { fix.classList.remove('show'); return; }
+  if (m.id !== markId) {
+    markId = m.id; markAt = performance.now();
+    wrongCount = m.kind === 'wrong' ? wrongCount + 1 : 0;
+  }
+  if (m.kind === 'wrong' || m.kind === 'given') {
+    fix.innerHTML = `<span class="tries">${m.kind === 'given' ? 'so geht es' : `Korrektur · Versuch ${wrongCount}`}</span>`
+      + `<span class="row" lang="es"><s>${esc(m.falsch)}</s> → <b>${esc(m.richtig)}</b></span>`
+      + `<span class="row" lang="es">${esc(m.frase)}</span>`
+      + (m.warum ? `<span class="why">${esc(m.warum)}</span>` : '');
+    fix.classList.add('show');
+  } else fix.classList.remove('show');
+}
+function showLesson(v) {
+  const sameQ = v && view.q === v.q && view.step === v.step;
+  view = v || {};
+  showMark(view.mark);
+  if (sameQ) return;  // only the mark changed: the question, its hint and the dots stay
+  if (!view.mark || view.mark.kind !== 'wrong') wrongCount = 0;
+  const card = $('#card');
+  if (!view.q) { card.hidden = true; $('#lesson').textContent = ''; $('#dots').innerHTML = ''; return; }
+  card.hidden = false;
+  $('#lesson').textContent = `· ${view.lesson} (${view.lesson_de})`;
+  $('#q').textContent = view.q;
+  $('#qde').textContent = view.q_de;
+  $('#hint').classList.remove('show');
+  $('#hint').innerHTML = `Du kannst sagen: <b lang="es">${esc(view.hint)}</b><span>${esc(view.hint_de)}</span>`;
+  $('#dots').innerHTML = Array.from({ length: view.of }, (_, i) =>
+    `<span class="dot${i + 1 < view.step ? ' on' : i + 1 === view.step ? ' now' : ''}"></span>`).join('');
+}
+
+function connect() {
+  const es = new EventSource('/events');
+  es.onopen = () => { $('#conn').textContent = ''; };
+  es.onerror = () => { $('#conn').textContent = 'keine Verbindung zu DUET'; live.state = 'idle'; };
+  es.onmessage = (m) => {
+    const e = JSON.parse(m.data);
+    if (e.t === 'tick') {
+      if (e.state === 'listen' && live.state !== 'listen') listenSince = performance.now();
+      Object.assign(live, e);
+      if (e.state === 'speak' && e.sentence) showSentence(e.sentence, e.lang);
+      $('#state').textContent = STATE_LABEL[e.state] || '';
+    } else if (e.t === 'heard') {
+      $('#you').innerHTML = `<b>Du</b>${esc(e.text)}`;
+    } else if (e.t === 'lesson') {
+      showLesson(e);
+    } else if (e.t === 'tip') {
+      $('#tips').insertAdjacentHTML('beforeend', `<div>Tipp: ${esc(e.text)}</div>`);
+    }
+  };
+}
+connect();
+
+// the sample answer fades in when he has been quiet for a while after her question
+setInterval(() => {
+  if (view.q && live.state === 'listen' && performance.now() - listenSince > 6000) $('#hint').classList.add('show');
+}, 500);
+
+// ---------------------------------------------------------------- the orb
+const cv = $('#orb'), g = cv.getContext('2d');
+const W = cv.width, C = W / 2, R = W * 0.27;
+const COLORS = {   // edge, core, glow per state
+  idle:   [[70, 110, 90], [150, 190, 170], [40, 80, 60]],
+  listen: [[60, 160, 120], [190, 240, 215], [30, 110, 80]],
+  caller: [[95, 208, 143], [225, 255, 235], [40, 150, 90]],
+  think:  [[120, 150, 230], [215, 225, 255], [70, 80, 170]],
+  speak:  [[255, 110, 175], [255, 225, 238], [200, 60, 130]],
+  wrong:  [[230, 38, 48], [255, 150, 150], [200, 15, 30]],    // she corrects him: clearly red, not pink
+  right:  [[242, 196, 67], [255, 244, 205], [190, 135, 20]],  // he got it right
+};
+function orbColor() {
+  const m = view.mark, since = performance.now() - markAt;
+  if (m && (m.kind === 'wrong' || m.kind === 'given') && (live.state === 'speak' || since < 1500)) return COLORS.wrong;
+  if (m && m.kind === 'right' && since < 1800) return COLORS.right;
+  return COLORS[live.state] || COLORS.idle;
+}
+let col = COLORS.idle.map((c) => c.slice());
+let out = 0, mic = 0, t0 = performance.now();
+const rings = [];
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const lerp = (a, b, k) => a + (b - a) * k;
+const rgb = (c, a = 1) => `rgba(${c[0] | 0},${c[1] | 0},${c[2] | 0},${a})`;
+
+function noise(a, t) {  // a smooth wobble around the circle
+  return Math.sin(3 * a + t * 1.3) * 0.5 + Math.sin(5 * a - t * 1.9 + 1.7) * 0.3 + Math.sin(2 * a + t * 0.7 + 4.1) * 0.4;
+}
+
+function frame(now) {
+  const t = (now - t0) / 1000;
+  const target = orbColor();
+  col = col.map((c, i) => c.map((v, j) => lerp(v, target[i][j], 0.08)));
+  out = lerp(out, live.state === 'speak' ? live.out : 0, live.out > out ? 0.45 : 0.12);
+  mic = lerp(mic, live.state === 'caller' ? live.mic : 0, 0.2);
+  if (live.state === 'caller' && mic > 0.45 && Math.random() < 0.08) rings.push({ r: R * 1.05, a: 0.5 });
+
+  g.clearRect(0, 0, W, W);
+  // glow
+  const glowR = R * (1.75 + out * 0.6 + mic * 0.3);
+  let gr = g.createRadialGradient(C, C, R * 0.4, C, C, glowR);
+  gr.addColorStop(0, rgb(col[2], 0.55));
+  gr.addColorStop(1, rgb(col[2], 0));
+  g.fillStyle = gr;
+  g.fillRect(0, 0, W, W);
+  // ripples while he talks
+  for (let i = rings.length - 1; i >= 0; i--) {
+    const k = rings[i];
+    k.r += 3.2; k.a *= 0.965;
+    g.strokeStyle = rgb(col[0], k.a); g.lineWidth = 3;
+    g.beginPath(); g.arc(C, C, k.r, 0, 2 * Math.PI); g.stroke();
+    if (k.a < 0.02) rings.splice(i, 1);
+  }
+  // the blob
+  const speed = live.state === 'think' ? 2.4 : 1;
+  const amp = reduce ? 0.01 : 0.022 + 0.2 * out + 0.09 * mic + (live.state === 'think' ? 0.03 : 0);
+  const breathe = 1 + (reduce ? 0 : 0.02 * Math.sin(t * 1.6));
+  g.beginPath();
+  const N = 120;
+  for (let i = 0; i <= N; i++) {
+    const a = (i / N) * 2 * Math.PI;
+    const r = R * breathe * (1 + amp * noise(a, t * speed) + 0.06 * out);
+    const x = C + r * Math.cos(a), y = C + r * Math.sin(a);
+    i ? g.lineTo(x, y) : g.moveTo(x, y);
+  }
+  g.closePath();
+  gr = g.createRadialGradient(C - R * 0.3, C - R * 0.35, R * 0.05, C, C, R * 1.25);
+  gr.addColorStop(0, rgb(col[1], 1));
+  gr.addColorStop(0.45, rgb(col[0], 0.95));
+  gr.addColorStop(1, rgb(col[2], 0.9));
+  g.fillStyle = gr;
+  g.fill();
+  // light moving inside: a liquid look
+  g.save(); g.clip();
+  for (let k = 0; k < 3; k++) {
+    const sp = speed * (0.35 + k * 0.17);
+    const x = C + Math.cos(t * sp + k * 2.1) * R * 0.45, y = C + Math.sin(t * sp * 1.3 + k) * R * 0.4;
+    const h = g.createRadialGradient(x, y, 0, x, y, R * (0.6 + out * 0.5));
+    h.addColorStop(0, rgb(col[1], 0.35 + out * 0.3));
+    h.addColorStop(1, rgb(col[1], 0));
+    g.fillStyle = h;
+    g.fillRect(0, 0, W, W);
+  }
+  g.restore();
+  // a soft rim
+  g.strokeStyle = rgb(col[1], 0.35 + out * 0.4); g.lineWidth = 2; g.stroke();
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

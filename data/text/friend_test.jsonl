@@ -1,0 +1,68 @@
+{"text": "I'm watching tv, I'm in my room, I'm waiting for my food. Everything is good. I'm hungry", "mode": "share_story", "feeling": "neutral"}
+{"text": "I'm watching some movie, I don't know it's uh, wait, I will tell you", "mode": "share_story", "feeling": "neutral"}
+{"text": "Yes, that's nice. I'm enjoying. I'm enjoying. Collision course, it's called the movie", "mode": "share_good", "feeling": "positive"}
+{"text": "I don't know, they're robbing some bank, I think", "mode": "share_story", "feeling": "neutral"}
+{"text": "Yes, yes, as I already told you, so the movie is great. We can speak about the movie", "mode": "chat", "feeling": "positive"}
+{"text": "So, yeah, they right now they are in the scene, robbing it, they are inside opening the trace and everything, looking at it", "mode": "share_story", "feeling": "neutral"}
+{"text": "It's a bankkeis. It's really a bankkeis. It's good. It's an action movie. It's nice", "mode": "chat", "feeling": "positive"}
+{"text": "They all have masks. they look like chubby dancers, you know", "mode": "share_story", "feeling": "neutral"}
+{"text": "Yeah, sounds weird, but it's visually it's really nice", "mode": "chat", "feeling": "positive"}
+{"text": "Thank you. Let's speak. Tell me about yourself a little bit. What you up to", "mode": "about_you", "feeling": "neutral"}
+{"text": "Hey, my day is, How are you", "mode": "about_you", "feeling": "neutral"}
+{"text": "I got the job! The design studio in Miami called me this morning", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Honestly I'm kind of nervous about leaving my friends here though", "mode": "share_bad", "feeling": "negative"}
+{"text": "It's just that everyone I know is here, and I'm scared I'll be lonely", "mode": "share_bad", "feeling": "negative"}
+{"text": "What do you think I should do to meet people there", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "What's your favorite city", "mode": "about_you", "feeling": "neutral"}
+{"text": "What day is it today", "mode": "ask_info", "feeling": "neutral"}
+{"text": "My best friend and I had a big fight this morning, and she said some things that really hurt", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "Yeah. I just keep thinking about it", "mode": "share_bad", "feeling": "negative"}
+{"text": "What would you do", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "We're having a baby", "mode": "share_good", "feeling": "very_positive"}
+{"text": "I passed my driving test on the first try", "mode": "share_good", "feeling": "very_positive"}
+{"text": "My sister just got engaged, I'm so happy for her", "mode": "share_good", "feeling": "very_positive"}
+{"text": "They accepted my offer on the apartment", "mode": "share_good", "feeling": "very_positive"}
+{"text": "Had a really nice lunch with my mom today", "mode": "share_good", "feeling": "positive"}
+{"text": "the weather was perfect for a walk this morning", "mode": "share_good", "feeling": "positive"}
+{"text": "I finally finished that book, it was pretty good", "mode": "share_good", "feeling": "positive"}
+{"text": "my little garden has its first tomatoes", "mode": "share_good", "feeling": "positive"}
+{"text": "My grandpa passed away last night", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I got laid off today and I don't know what to do", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "My girlfriend broke up with me", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "I've been feeling really alone lately", "mode": "share_bad", "feeling": "very_negative"}
+{"text": "Ugh, the traffic was terrible, I was stuck for an hour", "mode": "share_bad", "feeling": "negative"}
+{"text": "My boss was so rude in the meeting today", "mode": "share_bad", "feeling": "negative"}
+{"text": "I'm so tired, I barely slept", "mode": "share_bad", "feeling": "negative"}
+{"text": "the package I ordered is late again", "mode": "share_bad", "feeling": "negative"}
+{"text": "I'm just making some pasta right now", "mode": "share_story", "feeling": "neutral"}
+{"text": "I went to the store and then came home", "mode": "share_story", "feeling": "neutral"}
+{"text": "We're driving to my parents' place", "mode": "share_story", "feeling": "neutral"}
+{"text": "I had a meeting at ten and then lunch", "mode": "share_story", "feeling": "neutral"}
+{"text": "I'm sitting on the balcony", "mode": "share_story", "feeling": "neutral"}
+{"text": "Yeah, I think so too", "mode": "chat", "feeling": "neutral"}
+{"text": "That makes sense", "mode": "chat", "feeling": "neutral"}
+{"text": "I guess it depends on the person", "mode": "chat", "feeling": "neutral"}
+{"text": "Maybe, I'm not sure", "mode": "chat", "feeling": "neutral"}
+{"text": "I've heard that before", "mode": "chat", "feeling": "neutral"}
+{"text": "Haha, that's so true", "mode": "chat", "feeling": "positive"}
+{"text": "Oh I love that idea", "mode": "chat", "feeling": "positive"}
+{"text": "That's my favorite kind of food", "mode": "chat", "feeling": "positive"}
+{"text": "Nah, I don't buy that", "mode": "chat", "feeling": "negative"}
+{"text": "That movie was kind of boring honestly", "mode": "chat", "feeling": "negative"}
+{"text": "I'm not a fan of that", "mode": "chat", "feeling": "negative"}
+{"text": "What kind of music do you like", "mode": "about_you", "feeling": "neutral"}
+{"text": "How was your day", "mode": "about_you", "feeling": "neutral"}
+{"text": "What are you up to", "mode": "about_you", "feeling": "neutral"}
+{"text": "Do you have a favorite movie", "mode": "about_you", "feeling": "neutral"}
+{"text": "I love talking to you, what do you like talking about", "mode": "about_you", "feeling": "positive"}
+{"text": "How long do you boil an egg", "mode": "ask_info", "feeling": "neutral"}
+{"text": "What's the capital of Australia", "mode": "ask_info", "feeling": "neutral"}
+{"text": "What time is it", "mode": "ask_info", "feeling": "neutral"}
+{"text": "How does a heat pump work", "mode": "ask_info", "feeling": "neutral"}
+{"text": "What does serendipity mean", "mode": "ask_info", "feeling": "neutral"}
+{"text": "Should I take the bus or drive", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "Any ideas for a birthday gift for my dad", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "How do I get better at running", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "What should I cook tonight", "mode": "ask_advice", "feeling": "neutral"}
+{"text": "I'm so stressed about my exam, what should I do", "mode": "ask_advice", "feeling": "negative"}
+{"text": "My roommate keeps eating my food, how do I bring it up", "mode": "ask_advice", "feeling": "negative"}

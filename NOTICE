@@ -1,0 +1,48 @@
+DUET
+Copyright (c) 2026 GRAPHIQ Studio LLC
+
+The source code is licensed under the Functional Source License, Version 1.1,
+ALv2 Future License (FSL-1.1-ALv2; see LICENSE). Each version becomes available
+under the Apache License 2.0 two years after it is published.
+The DUET, Reflexx and GRAPHIQ names are not licensed under the FSL or the Apache
+License. Forks must use a different name.
+
+Models DUET runs (not included in this repository; each keeps its own licence)
+-------------------------------------------------------------------------------
+
+Granite Speech TurboCTC (IBM), English speech recognition
+  Apache License 2.0.
+Silero VAD v5 (snakers4/silero-vad), voice activity
+  MIT License. https://github.com/snakers4/silero-vad
+Supertonic-3 (Supertone Inc.), the voice
+  OpenRAIL-M. Its use restrictions apply to everyone who uses the voices and
+  must be passed on with them, including the ban on impersonating a real person.
+  Our own voice styles are designed, not cloned, and are not published.
+  https://huggingface.co/Supertone/supertonic-3
+bge-small-en-v1.5 (BAAI), the text encoder under the reflex heads
+  MIT License. https://huggingface.co/BAAI/bge-small-en-v1.5
+Whisper large-v3-turbo (OpenAI), Spanish and German recognition, run through
+  ffmpeg's whisper filter (whisper.cpp)
+  MIT License. https://github.com/openai/whisper
+Qwen3 4B Instruct 2507 (Alibaba Qwen), the words
+  Apache License 2.0.
+Gemma 3 12B (Google), the Spanish tutor's words when installed
+  Gemma Terms of Use. https://ai.google.dev/gemma/terms
+
+Data the trained parts learned from
+-----------------------------------
+
+CREMA-D (the prosody mood head): Open Database License 1.0 / Database Contents
+  License 1.0. The mood head is a Produced Work.
+  https://github.com/CheyneyComputerScience/CREMA-D
+LibriSpeech (Reflexx Ear): CC BY 4.0. https://www.openslr.org/12
+VoxPopuli English (Reflexx Ear): CC0. https://github.com/facebookresearch/voxpopuli
+Qwen3-TTS 1.7B (Reflexx Ear's synthetic conversational speech): Apache License 2.0.
+The text in data/text/ was written for DUET.
+
+Python packages (requirements.txt)
+----------------------------------
+
+NumPy (BSD-3-Clause), ONNX Runtime DirectML (MIT), SciPy (BSD-3-Clause),
+sounddevice (MIT), soundfile (BSD-3-Clause), tokenizers (Apache License 2.0),
+tzdata (Apache License 2.0).

@@ -120,4 +120,12 @@ with Gemma 3 12B in Ollama. The learner's name and facts go in `data/amiga/about
 | `tests/` | echo canceller, turn-taking policy, friend, Spanish tutor |
 | `docs/` | the full manual, the ear's research log, the listening research, the tutor case study |
 
+## License
+
+Code: [Functional Source License 1.1, ALv2 Future License](LICENSE) (FSL-1.1-ALv2), a "Fair Source" licence: the
+source is public, but it is not OSI-approved open source. You may read, use, modify and self-host DUET for any purpose
+except offering a competing commercial product or service. Each version becomes Apache 2.0 two years after its
+release. The models keep their own licences (Supertonic-3's OpenRAIL-M forbids impersonating real people); see
+[NOTICE](NOTICE).
+
 Built by [GRAPHIQ Studio](https://graphiq.art).
